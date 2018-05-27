@@ -1,0 +1,25 @@
+#if 0
+/// Copyright (c) Titan Robotics Club. All rights reserved.
+///
+/// <module name="NetTerm.rc" />
+///
+/// <summary>
+///     This module contains the resource definitions of the NetTerm
+///     application.
+/// </summary>
+///
+/// <remarks>
+///     Author: Michael Tsang (01-May-2012)
+///     Environment: Windows application.
+/// </remarks>
+#endif
+
+#include <SDKDDKVer.h>
+
+#define VER_FILETYPE                VFT_APP
+#define VER_FILESUBTYPE             VFT2_UNKNOWN
+#define VER_FILEDESCRIPTION_STR     "Network Terminal for NI cRIO"
+
+#define VER_INTERNALNAME_STR        "NetTerm.exe"
+#define VER_ORIGINALFILENAME_STR    "NetTerm.exe"
+

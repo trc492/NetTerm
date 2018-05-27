@@ -1,0 +1,20 @@
+TARGETNAME=NetTerm
+TARGETTYPE=PROGRAM
+UMTYPE=console
+UMENTRY=wmain
+
+_NT_TARGET_VERSION=$(_NT_TARGET_VERSION_WINXP)
+
+USE_MSVCRT=1
+MSC_WARNING_LEVEL=/W4 /WX
+
+INCLUDE=..\winlib
+
+TARGETLIBS= \
+        $(SDK_LIB_PATH)\ws2_32.lib
+
+SOURCES= \
+        NetTerm.cpp     \
+        Misc.cpp        \
+        NetTerm.rc
+
